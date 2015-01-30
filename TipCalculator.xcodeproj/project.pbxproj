@@ -13,6 +13,7 @@
 		8E0B44271A7716AD005C3885 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E0B44261A7716AD005C3885 /* Images.xcassets */; };
 		8E0B442A1A7716AD005C3885 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E0B44281A7716AD005C3885 /* LaunchScreen.xib */; };
 		8E0B44361A7716AD005C3885 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B44351A7716AD005C3885 /* TipCalculatorTests.swift */; };
+		8E0B44401A771776005C3885 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0B443F1A771776005C3885 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8E0B442F1A7716AD005C3885 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0B44341A7716AD005C3885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E0B44351A7716AD005C3885 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		8E0B443F1A771776005C3885 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		8E0B44111A7716AD005C3885 = {
 			isa = PBXGroup;
 			children = (
+				8E0B443F1A771776005C3885 /* TipCalculatorModel.swift */,
 				8E0B441C1A7716AD005C3885 /* TipCalculator */,
 				8E0B44321A7716AD005C3885 /* TipCalculatorTests */,
 				8E0B441B1A7716AD005C3885 /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0B44401A771776005C3885 /* TipCalculatorModel.swift in Sources */,
 				8E0B44221A7716AD005C3885 /* ViewController.swift in Sources */,
 				8E0B44201A7716AD005C3885 /* AppDelegate.swift in Sources */,
 			);
