@@ -104,7 +104,6 @@ class ViewController: UIViewController, UITableViewDataSource {
         tipCal.taxPct = Double(taxPctSlider.value)/100
         let taxPctStr = String(format: "%0.2f",tipCal.taxPct*100)
         taxPctLabel.text = "Tax Percent (\(taxPctStr))%"
-        clearResults()
     }
     
     @IBAction func viewTapped(sender: AnyObject) {
